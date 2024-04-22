@@ -103,11 +103,11 @@ const Login = () => {
               Sign Up with Google
             </span>
           </div>
-          <p className="text-center my-4 cursor-pointer text-[#000] dark:text-[#D8D8D8]">
-            or login with SSO
+          <p className="text-center mt-10 ml-20 gap-10 mcursor-pointer text-[#000] dark:text-[#D8D8D8]">
+           
           </p>
           <span className="flex justify-end gap-2">
-            Don't have account{" "}
+            Don't have account  or login with SSO{" "}
             <NavLink to="/register" className="text-blue-800 underline">
               Go registr
             </NavLink>
