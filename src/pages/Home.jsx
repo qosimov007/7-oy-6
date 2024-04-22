@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
         <div className="container mx-auto w-1/2">
-         
+        
 
             <button onClick={handleLogout}>Logout</button>
         </div>
