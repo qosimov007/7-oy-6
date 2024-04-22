@@ -2,23 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: #C5C5C5;
+html, body{
+  background: #c5c5c5;
 }
-
-.signup {
-    background: linear-gradient(0.25turn, #FFA7A7, #FF014E);
-    transition: all 3s ease;
+.dark{
+  background: #000;
 }
-
-.signup:hover {
-    background: linear-gradient(0.40turn, #fc9d9d, #e70045);
-}
-
-.google {
-    transition: all 0.5s;
-}
-
-.google:hover {
-    box-shadow: inset -10px -20px 40px 5px rgba(0, 0, 255, .2);
+.button5{
+  background: linear-gradient(90deg, #f7b8b3,#f8448c,#d81368);
 }
